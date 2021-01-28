@@ -11,7 +11,7 @@ This model appears to work MUCH better than other approaches such as the similar
 
 Hopefully the usage is straight forward.
 
-`model = n_channels, n_classes, width_multiplier=1, trilinear=True, use_ds_conv=False)`
+`model = UNet(n_channels, n_classes, width_multiplier=1, trilinear=True, use_ds_conv=False)`
 
 Where:
 
